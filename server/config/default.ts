@@ -1,0 +1,29 @@
+export default {
+  port: 1337,
+  origin: "http://localhost:3000",
+  dbUri: "mongodb://localhost:27017/rest-api",
+  saltWorkFactor: 10,
+  accessTokenTtl: "15m",
+  refreshTokenTtl: "1y",
+  publicKey: `-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEhW37eyhcBizC6wmZTGwK2Kri
+lv8EgwuV7aQsDKd/VWWFWPdcThWQvEPs5zZr/do6dFtbQmqnVeUXNCcHBh0iIk+Z
+G5cbBjOE4lSDNtR8UH3lA8NQVQOJgdMad/E9lvMBGGgthhiUvKZ6dL4z/n7Md92x
+IOFEPU7Pd2KNOvRu8wIDAQAB
+-----END PUBLIC KEY-----`,
+  privateKey: `-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCEhW37eyhcBizC6wmZTGwK2Krilv8EgwuV7aQsDKd/VWWFWPdc
+ThWQvEPs5zZr/do6dFtbQmqnVeUXNCcHBh0iIk+ZG5cbBjOE4lSDNtR8UH3lA8NQ
+VQOJgdMad/E9lvMBGGgthhiUvKZ6dL4z/n7Md92xIOFEPU7Pd2KNOvRu8wIDAQAB
+AoGAAoDawQNkkch0FAKIneK5r8LEB5++lYE8OMrSbRqYF2mvj0NM+OtosOE9jz4W
+4xdahfwotaKdjSesOjH8Ar/00OdDs84K0Xe1cMHZiLe/YXkX1KuQ/Lb6gk7TyWr8
+CeNNuPYf78dJqeFFynZZzyw85oFqG10SUl3j1DBgOBVBU9ECQQDKVfQj5rj1Y2cJ
+mvylHMKBd3d7rmzCfOZVmsCXihNfS4ouay5NbYOSnU5dosdJF7LnExOSoSk5wMJZ
+YBmOZIN1AkEAp6tCLVMEfWTn0M6AGcMNqlx/2nPztW0kwem41pb1apqWyl8IevRw
+6z3AHn7Hry8dOPzo/s59ZluUT/eaqIxjxwJAKhVsnRb8+1T8dlv9Fl5/+iud92SV
+DHKr+bwhOKOoWda9W+BBFiukBReg2ArmRkaemD84f/PzPibghXRefGZdjQJAQEt4
+zf6WqysFhdmZ38cfN2PPF0r9emXHAaEJYyhyJZXwGtxEWTnhDyQXxtng4rmTYCYD
+hqpSBe06O0v8f4OOQwJBALjdbdkecAyIOSbHrt4WemHc76EGvDzXuidfN//HUvx7
+JTUYbVyBm/q+01ZO0qDC1Y7DXlNU6sQUL+VD0EeSA4Q=
+-----END RSA PRIVATE KEY-----`,
+};
